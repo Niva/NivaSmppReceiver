@@ -1,0 +1,9 @@
+smsc_host: ~ # SMSC host
+smsc_port: ~ # SMSC port
+esme_username: ~ # ESME username
+esme_password: ~ # ESME password
+shortcode:~
+type: ~ # MTs convert the messages to the DLR spec while MO use the MO spec
+beanstalk_host: ~ # Beanstalk server host
+beanstalk_port: ~ # Beanstalk server port
+beanstalk_tube: ~ # Beanstalk tube to put
