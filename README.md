@@ -61,6 +61,23 @@ beanstalk_port: 11300 # Beanstalk server port
 beanstalk_tube: mo # Beanstalk tube to put
 ```
 
+#### Carrier Settings
+
+```
+Iusacell MX
+Source TON: 0x01 (TON_INTERNATIONAL)
+Source NPI: 0x01 (NPI_E164)
+Destination TON: 0x01 (TON_INTERNATIONAL)
+Destination NPI: 0x01 (NPI_E164)
+
+Movistar MX
+Source TON: 0x04 (TON_SUBSCRIBERNUMBER)
+Source NPI: 0x09 (NPI_PRIVATE)
+Destination TON: 0x02 (TON_NATIONAL)
+Destination NPI: 0x01 (NPI_E164)
+```
+
+
 ## Dependencies
 
 Libraries are not included in the src. Here is the list of needed libraries:
