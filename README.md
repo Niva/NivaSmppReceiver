@@ -52,6 +52,8 @@ smsc_host: 100.50.20.10 # SMSC host
 smsc_port: 5000 # SMSC port
 esme_username: esmeusername # ESME username
 esme_password: mysecretpassword # ESME password
+esme_system_type: www # ESME System Type
+carrier: I # Affects TON & NPI settings. I: Iusacell, M: Movistar
 shortcode: 55055
 type: (MO/MT) # MTs convert the messages to the DLR spec while MO use the MO spec
 beanstalk_host: localhost # Beanstalk server host
