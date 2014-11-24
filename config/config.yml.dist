@@ -2,7 +2,9 @@ smsc_host: ~ # SMSC host
 smsc_port: ~ # SMSC port
 esme_username: ~ # ESME username
 esme_password: ~ # ESME password
-shortcode:~
+emse_system:  ~ # ESME system type
+carrier: ~ # carrier (I|M|P)
+shortcode: ~
 type: ~ # MTs convert the messages to the DLR spec while MO use the MO spec
 beanstalk_host: ~ # Beanstalk server host
 beanstalk_port: ~ # Beanstalk server port
